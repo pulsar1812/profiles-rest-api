@@ -1,0 +1,100 @@
+{
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "python.formatting.provider": "none",
+  "editor.tabSize": 4,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.addMissingImports": "explicit"
+  },
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "workbench.tree.indent": 16,
+  "eslint.packageManager": "npm",
+  "editor.parameterHints.enabled": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "postcss": "css"
+  },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "workbench.statusBar.visible": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "editor.formatOnSave": true
+  },
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django",
+    "--disable=C0111"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "files.defaultLanguage": "javascript",
+  "workbench.colorTheme": "Default Dark+",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "explorer.compactFolders": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.iconTheme": "vscode-icons",
+  "tabnine.experimentalAutoImports": true,
+  "prettier.semi": false,
+  "rapidapi.terminalLink.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "[python]": {
+  //   "editor.formatOnType": true
+  // },
+  "terminal.integrated.env.osx": {},
+  "code-runner.runInTerminal": true,
+  "gitlens.currentLine.enabled": false,
+  "git.autorefresh": true,
+  "git.enableSmartCommit": true,
+  "console-ninja.featureSet": "Community",
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[go.mod]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "go.formatTool": "goimports",
+  "go.toolsManagement.autoUpdate": true,
+  "go.vetOnSave": "package",
+  "[go][go.mod]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
+}
